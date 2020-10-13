@@ -1,0 +1,24 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "this is just a test directory to learn git and node",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wasifkhan1998/git.git"
+  },
+  "author": "M wasif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wasifkhan1998/git/issues"
+  },
+  "homepage": "https://github.com/wasifkhan1998/git#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
